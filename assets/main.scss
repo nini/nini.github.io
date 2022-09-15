@@ -21,6 +21,9 @@ img.profile-image {
   margin-bottom: 25px;
   max-width: 520px;
   border-radius: 6px;
+  @include media-query($on-palm) {
+    max-width: 100%;
+  }
 }
 
 img.hireme {
