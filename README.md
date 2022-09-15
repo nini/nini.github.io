@@ -1,2 +1,2 @@
-nini.github.io
+ninilab.com
 ==============
