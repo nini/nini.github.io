@@ -1,0 +1,53 @@
+---
+layout: default
+---
+
+<div class="home">
+    <img src="/assets/images/nikolai-avatar-large.png" alt="Nikolai" class="profile-image">
+
+    <h1 class="page-heading">
+        <strong>I'm Nikolai — a coder and creator based in Berlin.</strong><br />
+        Here you'll find little things to get to know IT and coding more accessible. I also like to invest and do martial arts in my spare time.
+    </h1>
+
+    {{ content }}
+
+    {%- if site.work_items.size > 0 -%}
+    <div class="post-list-heading">Creating</div>
+    <ul class="post-list">
+        {%- for work_item in site.work_items -%}
+        <li>
+            <h3>
+                <a class="post-link" href="{{ work_item.external_url }}">
+                    {{ work_item.title | escape }} &rarr;
+                </a>
+            </h3>
+            {%- if site.show_excerpts -%}
+            {{ work_item.excerpt }}
+            {%- endif -%}
+        </li>
+        {%- endfor -%}
+    </ul>
+    {%- endif -%}
+
+    {%- if site.posts.size > 0 -%}
+    <div class="post-list-heading">Blog</div>
+    <ul class="post-list">
+        {%- for post in site.posts -%}
+        <li>
+<!--            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}-->
+<!--            <span class="post-meta">{{ post.date | date: date_format }}</span>-->
+            <h3>
+                <a class="post-link" href="{{ post.url | relative_url }}">
+                    {{ post.title | escape }} &rarr;
+                </a>
+            </h3>
+            {%- if site.show_excerpts -%}
+            {{ post.excerpt }}
+            {%- endif -%}
+        </li>
+        {%- endfor -%}
+    </ul>
+    {%- endif -%}
+
+</div>

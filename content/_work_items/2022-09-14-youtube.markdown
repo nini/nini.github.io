@@ -1,0 +1,6 @@
+---
+layout: post
+title: "YouTube"
+excerpt: I upload to YouTube things covering coding and self-development.
+external_url: https://youtube.com/niknikav
+---
