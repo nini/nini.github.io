@@ -2,7 +2,7 @@
 layout: post
 title:  "Hello World!"
 date:   2022-09-15 10:46:50 +0200
-categories: hello world
+categories: blog
 excerpt: Welcome to my website.
 splash_image: /assets/images/stefan-widua-iPOZf3tQfHA-unsplash-preview.jpg
 ---

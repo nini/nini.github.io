@@ -59,8 +59,16 @@ div.post-list-heading {
 }
 
 ul.post-list {
+  @media screen and (min-width: $on-laptop) {
+    display: flex;
+    gap: 20px;
+  }
+
   li {
-    width: 32%;
+    @media screen and (min-width: $on-laptop) {
+      width: 32%;
+    }
+
     a.post-link {
       img {
         border-radius: 4px;
@@ -74,5 +82,11 @@ ul.post-list {
 
   .page-link {
     color: $grey-color;
+  }
+}
+
+.post-content {
+  p {
+    max-width: 700px;
   }
 }
