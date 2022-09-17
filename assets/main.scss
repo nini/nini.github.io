@@ -57,6 +57,17 @@ div.post-list-heading {
   text-transform: uppercase;
 }
 
+ul.post-list {
+  li {
+    width: 32%;
+    a.post-link {
+      img {
+        border-radius: 4px;
+      }
+    }
+  }
+}
+
 .site-nav {
   font-weight: 600;
 

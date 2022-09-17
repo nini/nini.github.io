@@ -4,7 +4,10 @@ title:  "Hello World!"
 date:   2022-09-15 10:46:50 +0200
 categories: hello world
 excerpt: Welcome to my website.
+splash_image: /assets/images/stefan-widua-iPOZf3tQfHA-unsplash-preview.jpg
 ---
+![Berlin](/assets/images/stefan-widua-iPOZf3tQfHA-unsplash.jpg)
+
 Welcome to my website!
 
 Here is an obligatory post for a developer starting a new blog.
