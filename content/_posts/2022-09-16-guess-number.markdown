@@ -8,6 +8,9 @@ splash_image: /assets/images/joel-abraham-8RRYJg26Wr4-unsplash-preview.jpg
 ---
 ![Dice](/assets/images/joel-abraham-8RRYJg26Wr4-unsplash.jpg)
 
+TL;DR
+You can start coding today.
+
 The idea for the program came to my mind during my summer trip to the Baltic sea. 
 
 I was traveling together with my son. Instead of going by car, I was looking to try something new, so I've come up with the idea of going by bus (specifically with Flixbus). 
