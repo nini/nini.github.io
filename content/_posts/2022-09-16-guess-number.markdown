@@ -28,3 +28,5 @@ Sounds complicated? Not at all; feel free to try it out yourself!
 
 <script src="https://gumroad.com/js/gumroad.js"></script>
 <a class="gumroad-button" href="https://ninilab.gumroad.com/l/dcwak">Buy in my store</a>
+
+![Guess the number](/assets/images/guess-the-number-preview.png)
