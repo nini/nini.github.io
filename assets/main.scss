@@ -87,6 +87,35 @@ ul.post-list {
 
 .post-content {
   p {
-    max-width: 700px;
+    //max-width: 700px;
+  }
+}
+article.post {
+  display: flex;
+  flex-flow: row wrap;
+
+  @media screen and (min-width: $on-laptop) {
+    header.post-header {
+      flex: 1 100%;
+    }
+    div.post-content {
+      flex: 1 0 0;
+    }
+  }
+
+  div.post-sidebar {
+    margin: 0 auto;
+    @media screen and (min-width: $on-laptop) {
+      padding-left: 50px;
+    }
+
+    img {
+      display: block;
+      max-width: 200px;
+      border-radius: 6px;
+    }
+    a {
+      display: block;
+    }
   }
 }
