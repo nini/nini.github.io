@@ -11,10 +11,16 @@ $base-font-family: -apple-system, manrope, BlinkMacSystemFont, "Segoe UI", Robot
 
 .site-title {
   font-weight: 600;
+  color: #2f2f2f;
+
+  &:visited {
+    color: #2f2f2f
+  }
 }
 
 .site-header {
   border-top: none;
+  padding: 5px 0;
 }
 
 h1.page-heading {
