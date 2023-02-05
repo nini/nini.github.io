@@ -3,18 +3,18 @@ layout: default
 ---
 
 <div class="home">
-    <img src="/assets/images/nikolai-avatar-large.jpg" alt="Nikolai" class="profile-image">
+    <img src="/assets/images/nikolai-avatar-large.jpg" alt="Nikolai" class="profile-image animate__animated animate__fadeIn">
 
-    <h1 class="page-heading">
-        <strong>I'm Nikolai — a coder and creator based in Berlin.</strong><br />
+    <h1 class="page-heading animate__animated animate__fadeIn animate__delay-1s">
+        <strong >I'm Nikolai — a coder and creator based in Berlin.</strong><br />
         Here you'll find little things to get to know IT and coding more accessible. I also like to invest and do martial arts in my spare time.
     </h1>
 
     {{ content }}
 
     {%- if site.work_items.size > 0 -%}
-    <div class="post-list-heading">Creating</div>
-    <ul class="post-list">
+    <div class="post-list-heading animate__animated animate__fadeIn animate__delay-1s">Creating</div>
+    <ul class="post-list animate__animated animate__fadeIn animate__delay-1s">
         {%- for work_item in site.work_items -%}
         <li>
             <h3>

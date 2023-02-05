@@ -9,6 +9,10 @@ $base-font-family: -apple-system, manrope, BlinkMacSystemFont, "Segoe UI", Robot
 
 @import "minima";
 
+:root {
+  --animate-duration: 0.25s;
+}
+
 .site-title {
   font-weight: 600;
   color: #2f2f2f;
@@ -25,7 +29,7 @@ $base-font-family: -apple-system, manrope, BlinkMacSystemFont, "Segoe UI", Robot
 
 h1.page-heading {
   color: $grey-color;
-
+  --animate-delay: 0.5s;
 
   strong {
     color: #2f2f2f;
@@ -34,6 +38,7 @@ h1.page-heading {
 }
 
 img.profile-image {
+  --animate-delay: 0.25s;
   margin-top: 25px;
   margin-bottom: 25px;
   max-width: 520px;
@@ -58,6 +63,7 @@ div.post-list-heading {
   margin-top: 100px;
   margin-bottom: 10px;
   font-weight: 600;
+  --animate-delay: 0.75s;
 }
 
 .post-meta {
@@ -65,6 +71,7 @@ div.post-list-heading {
 }
 
 ul.post-list {
+  --animate-delay: 1s;
   @media screen and (min-width: $on-laptop) {
     display: flex;
     gap: 20px;
@@ -102,9 +109,11 @@ article.post {
 
   @media screen and (min-width: $on-laptop) {
     header.post-header {
+      --animate-delay: 0.25s;
       flex: 1 100%;
     }
     div.post-content {
+      --animate-delay: 0.5s;
       flex: 1 0 0;
     }
   }
