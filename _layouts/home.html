@@ -33,7 +33,7 @@ layout: default
     {%- if site.posts.size > 0 -%}
     <div class="post-list-heading">Blog</div>
     <ul class="post-list">
-        {%- for post in site.posts -%}
+        {%- for post in site.posts limit:3 -%}
         <li>
             <h3>
                 <a class="post-link" href="{{ post.url | relative_url }}">
@@ -48,6 +48,9 @@ layout: default
         </li>
         {%- endfor -%}
     </ul>
+    <a class="post-link" href="/blog">
+        See all blog posts &rarr;
+    </a>
     {%- endif -%}
 
 </div>
