@@ -1,28 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<opml version="2.0">
-  <head><title>Tech &amp; AI Feeds</title></head>
+<opml xmlns:frss="https://freshrss.org/opml" version="2.0">
+  <head>
+    <title>Tech &amp; AI Feeds</title>
+  </head>
   <body>
-    <outline text="Tech News" title="Tech News">
-      <outline type="rss" text="Hacker News" title="Hacker News" xmlUrl="https://news.ycombinator.com/rss" htmlUrl="https://news.ycombinator.com/"/>
-      <outline type="rss" text="Techmeme" title="Techmeme" xmlUrl="https://www.techmeme.com/feed.xml" htmlUrl="https://www.techmeme.com/"/>
-      <outline type="rss" text="Ars Technica" title="Ars Technica" xmlUrl="https://feeds.arstechnica.com/arstechnica/index" htmlUrl="https://arstechnica.com/"/>
-    </outline>
-    <outline text="AI News" title="AI News">
-      <outline type="rss" text="MIT Technology Review - AI" title="MIT Technology Review - AI" xmlUrl="https://www.technologyreview.com/topic/artificial-intelligence/feed/" htmlUrl="https://www.technologyreview.com/topic/artificial-intelligence/"/>
-      <outline type="rss" text="TechCrunch - AI" title="TechCrunch - AI" xmlUrl="https://techcrunch.com/category/artificial-intelligence/feed/" htmlUrl="https://techcrunch.com/category/artificial-intelligence/"/>
-      <outline type="rss" text="The Verge - AI" title="The Verge - AI" xmlUrl="https://www.theverge.com/rss/ai-artificial-intelligence/index.xml" htmlUrl="https://www.theverge.com/ai-artificial-intelligence"/>
-      <outline type="rss" text="WIRED - AI" title="WIRED - AI" xmlUrl="https://www.wired.com/feed/tag/ai/latest/rss" htmlUrl="https://www.wired.com/tag/artificial-intelligence/"/>
-      <outline type="rss" text="OpenAI News" title="OpenAI News" xmlUrl="https://openai.com/news/rss.xml" htmlUrl="https://openai.com/news/"/>
-    </outline>
-    <outline text="AI Engineering &amp; Agents" title="AI Engineering &amp; Agents">
-      <outline type="rss" text="Simon Willison" title="Simon Willison" xmlUrl="https://simonwillison.net/atom/everything/" htmlUrl="https://simonwillison.net/"/>
-      <outline type="rss" text="Hugging Face Blog" title="Hugging Face Blog" xmlUrl="https://huggingface.co/blog/feed.xml" htmlUrl="https://huggingface.co/blog"/>
-      <outline type="rss" text="Google DeepMind" title="Google DeepMind" xmlUrl="https://deepmind.google/blog/rss.xml" htmlUrl="https://deepmind.google/blog/"/>
-    </outline>
-    <outline text="Deep Tech &amp; Research" title="Deep Tech &amp; Research">
-      <outline type="rss" text="SemiAnalysis" title="SemiAnalysis" xmlUrl="https://www.semianalysis.com/feed" htmlUrl="https://www.semianalysis.com/"/>
-      <outline type="rss" text="MIT News - Artificial Intelligence" title="MIT News - Artificial Intelligence" xmlUrl="https://news.mit.edu/rss/topic/artificial-intelligence2" htmlUrl="https://news.mit.edu/topic/artificial-intelligence2"/>
-      <outline type="rss" text="arXiv - Artificial Intelligence" title="arXiv - Artificial Intelligence" xmlUrl="https://rss.arxiv.org/rss/cs.AI" htmlUrl="https://arxiv.org/list/cs.AI/recent"/>
-    </outline>
+    <outline text="Hacker News" type="rss" xmlUrl="https://news.ycombinator.com/rss" htmlUrl="https://news.ycombinator.com/"/>
+    <outline text="Techmeme" type="rss" xmlUrl="https://www.techmeme.com/feed.xml" htmlUrl="https://www.techmeme.com/"/>
+    <outline text="Ars Technica" type="rss" xmlUrl="https://feeds.arstechnica.com/arstechnica/index" htmlUrl="https://arstechnica.com/"/>
+    <outline text="MIT Technology Review - AI" type="rss" xmlUrl="https://www.technologyreview.com/topic/artificial-intelligence/feed/" htmlUrl="https://www.technologyreview.com/topic/artificial-intelligence/"/>
+    <outline text="TechCrunch - AI" type="rss" xmlUrl="https://techcrunch.com/category/artificial-intelligence/feed/" htmlUrl="https://techcrunch.com/category/artificial-intelligence/"/>
+    <outline text="The Verge - AI" type="rss" xmlUrl="https://www.theverge.com/rss/ai-artificial-intelligence/index.xml" htmlUrl="https://www.theverge.com/ai-artificial-intelligence"/>
+    <outline text="WIRED - AI" type="rss" xmlUrl="https://www.wired.com/feed/tag/ai/latest/rss" htmlUrl="https://www.wired.com/tag/artificial-intelligence/"/>
+    <outline text="OpenAI News" type="rss" xmlUrl="https://openai.com/news/rss.xml" htmlUrl="https://openai.com/news/"/>
+    <outline text="Simon Willison" type="rss" xmlUrl="https://simonwillison.net/atom/everything/" htmlUrl="https://simonwillison.net/"/>
+    <outline text="Hugging Face Blog" type="rss" xmlUrl="https://huggingface.co/blog/feed.xml" htmlUrl="https://huggingface.co/blog"/>
+    <outline text="Google DeepMind" type="rss" xmlUrl="https://deepmind.google/blog/rss.xml" htmlUrl="https://deepmind.google/blog/"/>
+    <outline text="SemiAnalysis" type="rss" xmlUrl="https://www.semianalysis.com/feed" htmlUrl="https://www.semianalysis.com/"/>
+    <outline text="MIT News - Artificial Intelligence" type="rss" xmlUrl="https://news.mit.edu/rss/topic/artificial-intelligence2" htmlUrl="https://news.mit.edu/topic/artificial-intelligence2"/>
+    <outline text="arXiv - Artificial Intelligence" type="rss" xmlUrl="https://rss.arxiv.org/rss/cs.AI" htmlUrl="https://arxiv.org/list/cs.AI/recent"/>
   </body>
 </opml>
